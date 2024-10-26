@@ -1,0 +1,32 @@
+#videos, #contactofinal{
+    background-color: white !important;
+}
+
+#videos h2,#videos h1,#videos h2,#videos h3,#videos h4,
+#contactofinal h2,#contactofinal h1,#contactofinal h2,#contactofinal h3,#contactofinal h4{
+    color: black !important;
+}
+
+/* .icon-description {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .icon-description i {
+    font-size: 24px;
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .left-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  } */
+
+  .custom-input {
+    border: 2px solid rgb(208, 208, 208) !important;        
+    border-radius: 8px !important;             
+    box-shadow: 0px 0px 10px rgba(208, 208, 208, 0.3) !important;  
+  }
