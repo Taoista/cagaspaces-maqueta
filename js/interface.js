@@ -178,7 +178,7 @@
 
 
 	$(".js-partners-carousel").owlCarousel({
-		items : 5,
+		items : 6,
 	    itemsDesktop : [1199,3],
 	    itemsDesktopSmall : [980,2],
 	    itemsTablet: [768,1],
