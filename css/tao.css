@@ -21,3 +21,12 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+#clients{
+  padding-top: 20px !important;
+}
+
+#services{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
