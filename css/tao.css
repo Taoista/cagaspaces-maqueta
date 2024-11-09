@@ -71,3 +71,15 @@
 .stl-text-proyect {
   color: white;
 }
+
+
+/* modal slider */
+.modal-state-width{
+  width: 53%;
+}
+
+.modal-content {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}
