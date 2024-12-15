@@ -42,12 +42,12 @@ function send_email($email, $name, $message){
     
         // Configuración del servidor SMTP
         $mail->isSMTP();
-        $mail->Host = 'smtp.mailtrap.io';         // Servidor SMTP
+        $mail->Host = 'mail.cavaspaces.cl';         // Servidor SMTP
         $mail->SMTPAuth = true;
-        $mail->Username = 'ef115d1ba87f2d'; // Usuario SMTP
-        $mail->Password = '76003d28cae728';         // Contraseña SMTP
+        $mail->Username = 'no-reply@cavaspaces.cl'; // Usuario SMTP
+        $mail->Password = '7340458Tao.!';         // Contraseña SMTP
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 2525;                         // Puerto SMTP
+        $mail->Port = 465;                          // Puerto SMTP
     
         // Configurar el remitente y el destinatario
         $mail->setFrom('no-reply@cavasspaces.cl', 'no-reply');
