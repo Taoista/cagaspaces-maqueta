@@ -1,0 +1,20 @@
+{
+    "name": "taois/cavaspaces",
+    "description": "cavaspaces",
+    "type": "library",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Taois\\Cavaspaces\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "taoista",
+            "email": "taoista-@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
