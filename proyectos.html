@@ -602,7 +602,7 @@
             <h3>Ubicación</h3>
             
             <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.490411268593!2d-70.5179782!3d-33.358260599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbdda21a4f97%3A0x3d517a03f3afb732!2sAv.%20La%20Dehesa%201540%2C%20Of.%20701%2C%207690000%20Lo%20Barnechea%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1730224641214!5m2!1ses-419!2scl" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3332.490411268593!2d-70.5179782!3d-33.358260599999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cbdda21a4f97%3A0x3d517a03f3afb732!2sAv.%20La%20Dehesa%201540%2C%20Of.%20701%2C%207690000%20Lo%20Barnechea%2C%20Regi%C3%B3n%20Metropolitana!5e0!3m2!1ses-419!2scl!4v1730224641214!5m2!1ses-419!2scl" 
                 width="100%"
                 height="250"
                 style="border:0;"
@@ -636,18 +636,25 @@
             <form>
               <div class="mb-3">
                 <label for="name" class="form-label">Nombre</label>
-                <input type="text" class="form-control custom-input" id="name" required>
+                <input type="text" class="form-control custom-input" id="name" >
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label">Correo Electrónico</label>
-                <input type="email" class="form-control custom-input" id="email" required>
+                <input type="email" class="form-control custom-input" id="email" >
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label">Mensaje</label>
-                <textarea class="form-control" id="message" rows="4" required></textarea>
+                <textarea class="form-control" id="message" rows="4" ></textarea>
               </div>
-              <div class="mt-3" style="margin-top: 30px;">
-                <a href="#" class="btn btn-dark wow swing">Enviar</a>
+
+              <div class="mt-3" style="margin-top: 30px; display: block;" id="cont-send">
+                <button  class="btn btn-dark wow swing btn-send-contact">Enviar</button>
+              </div>
+
+              <div class="mt-3" style="margin-top: 30px; display: none;" id="cont-sending">
+                <button  class="btn btn-dark wow swing btn-send-contact">
+                  Enviando.....
+                </button>
               </div>
             </form>
           </div>
@@ -730,5 +737,7 @@
 <script src="js/rev-slider-init.js"></script>
 <script src="js/interface.js"></script> 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/contact.js"></script>
 </body>
 </html>

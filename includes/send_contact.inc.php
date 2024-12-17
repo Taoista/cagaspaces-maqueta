@@ -47,7 +47,7 @@ function send_email($email, $name, $message){
         $mail->Username = 'no-reply@cavaspaces.cl'; // Usuario SMTP
         $mail->Password = '7340458Tao.!';         // Contraseña SMTP
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 465;                          // Puerto SMTP
+        $mail->Port = 587;                          // Puerto SMTP
     
         // Configurar el remitente y el destinatario
         $mail->setFrom('no-reply@cavasspaces.cl', 'no-reply');
@@ -55,7 +55,7 @@ function send_email($email, $name, $message){
     
         $mail->CharSet = 'UTF-8';
         // Cargar la plantilla HTML
-        $template = file_get_contents('./email_template.html');
+        $template = file_get_contents('email_template.html');
 
         // Reemplazar las variables dinámicas en la plantilla
         $variables = [

@@ -42,7 +42,7 @@ document.querySelector(".btn-send-contact").addEventListener("click", (e)=>{
         })
     }).then((res) => {
         if(res == 'success'){
-            Swal.fire('Error!','Do you want to continue','success');
+            Swal.fire('Contacto','correo enviado correctamente','success');
             document.querySelector("#name").value = '';
             document.querySelector("#email").value = '';
             document.querySelector("#message").value = '';
