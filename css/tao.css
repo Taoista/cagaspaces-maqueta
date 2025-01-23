@@ -105,3 +105,18 @@ input.custom-input{
 .whatsapp-icon {
   margin-top:13px;
 }
+
+.section-video{
+  padding-top: 5em;
+  /* margin-bottom: 0em; */
+  padding-bottom: 7em;
+}
+
+.title-video{
+  margin-bottom: 0em;
+}
+
+.videos-subtitle{
+  padding-top: 1px;
+  margin-bottom: 2em;
+}
